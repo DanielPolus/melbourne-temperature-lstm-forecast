@@ -7,7 +7,7 @@ The model takes the previous 30 days of temperatures and predicts the temperatur
 
 - Source: *Daily Minimum Temperatures in Melbourne, Australia (1981–1990)* from Kaggle  
 - Target: next-day minimum temperature  
-- Features: only past temperature values (no external weather variables)
+- Features: only past temperature values
 
 ## Data Preparation
 
@@ -18,7 +18,7 @@ The model takes the previous 30 days of temperatures and predicts the temperatur
   - Each sample:  
     - `X`: temperatures at days *t-30 ... t-1*  
     - `y`: temperature at day *t*
-- Train/test split: 80% / 20% by time (без перемешивания)
+- Train/test split: 80% / 20% by time
 
 ## Model Architecture
 
